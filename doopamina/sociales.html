@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UFT-8">
+    <meta name ="viewport" content="width=device-width, initial-sacale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doopamina | Redes Sociales</title>
+    <link rel="stylesheet" href="socialmedia.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navigation active">
+          <span style="--i:0;--x:-1;--y:0;">
+            <a href="https://www.facebook.com/CEO.smok" target="_blank"><ion-icon name="logo-facebook">a</ion-icon></a>
+          </span>
+          <span style="--i:1;--x:1;--y:0;">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </span>
+          <span style="--i:2;--x:0;--y:-1;">
+              <ion-icon name="logo-twitter"></ion-icon>
+          </span>
+          <span style="--i:3;--x:0;--y:1;">
+              <ion-icon name="logo-twitch"></ion-icon>
+          </span>
+          <span style="--i:4;--x:-1;--y:1;">
+              <ion-icon name="logo-youtube"></ion-icon>
+          </span>
+          <span style="--i:5;--x:-1;--y:-1;">
+            <a href="https://discord.gg/H2SYJ6zTxj" target="_blank"><ion-icon name="logo-discord"></ion-icon></a>              
+          </span>
+          <span style="--i:6;--x:1;--y:-1;">
+            <a href="https://tecmarksrl.com/" target="_blank"><ion-icon name="storefront-outline"></ion-icon></a>
+          </span>
+          <span style="--i:7;--x:1;--y:1;">
+            <a href="index.html"><ion-icon name="menu-outline"></ion-icon></a>            
+          </span>
+        </div>
+        <div class="close"><ion-icon name="close-outline"></ion-icon></div>
+      </div>
+    <script type="module"			       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">	     </script>
+    <script>
+        let navigation = document.querySelector('.navigation');
+        let close = document.querySelector('.close');
+        navigation.onclick = function(){
+          navigation.classList.add('active');
+        }
+        close.onclick = function(){
+          navigation.classList.remove('active')
+        }
+    </script>    
+</body>
+</html>
